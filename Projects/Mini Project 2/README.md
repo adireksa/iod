@@ -8,5 +8,5 @@
 # create docker container for streamlit app.py from Dockerfile
 - docker run -p 8501:8501 streamlitapp:latest
 
-# view app on localhost at following port
+# view app on localhost at following port after building from Dockerfile
 - http://localhost:8501/
