@@ -18,3 +18,6 @@ Note: builds from pip
 
 ## view app on localhost at following port after building from Dockerfile
 - http://localhost:8501/
+below local url will not always work: 
+-  Network URL: http://172.17.0.2:8501
+-  External URL: http://116.86.25.219:8501
