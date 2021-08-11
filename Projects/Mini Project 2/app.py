@@ -138,7 +138,7 @@ st.subheader('User Input features')
 print(df.columns)
 st.write(df)
 
-# Reads in saved classification model
+# Reads in saved ML model
 load_mlr = pickle.load(open('multi_linear.pkl', 'rb'))
 
 # Apply model to make predictions
