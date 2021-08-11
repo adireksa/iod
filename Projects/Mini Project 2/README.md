@@ -11,6 +11,7 @@ Datasource: https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16b
 
 ## build Docker image
 - docker build -t streamlitapp:latest .
+
 Note: builds from pip
 
 ## create docker container for streamlit app.py to be deployed
@@ -18,6 +19,7 @@ Note: builds from pip
 
 ## view deployed app on localhost at following port after building from Dockerfile
 - http://localhost:8501/
+
 below local url will not always work: 
 -  Network URL: http://172.17.0.2:8501
 -  External URL: http://116.86.25.219:8501
