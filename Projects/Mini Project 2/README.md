@@ -13,7 +13,7 @@ Datasource: https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16b
 - docker build -t streamlitapp:latest .
 Note: builds from pip
 
-## create docker container for streamlit app.py from Dockerfile
+## create docker container for streamlit app.py to deploy from container
 - docker run -p 8501:8501 streamlitapp:latest
 
 ## view app on localhost at following port after building from Dockerfile
