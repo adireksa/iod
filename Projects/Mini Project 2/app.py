@@ -138,7 +138,7 @@ st.subheader('User Input features')
 print(df.columns)
 st.write(df)
 
-# Reads in saved ML model
+# Reads in saved classification model
 load_mlr = pickle.load(open('multi_linear.pkl', 'rb'))
 
 # Apply model to make predictions
@@ -151,7 +151,8 @@ st.subheader('Predicted CO2 Emissions (g/km)')
 st.write(prediction)
 
 
-
+#insert image to see quartiles of target
+st.image('co2_quartiles.png')
 
 
 
