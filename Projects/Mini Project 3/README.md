@@ -5,3 +5,4 @@ Skills demonstrated:
 - Visual EDA (matplotlib,plotly)
 - Sklearn tools for unsupervised learning (PCA, Kmeans)
 - DataViz (Tableau)
+![Tableau Image](https://github.com/adireksa/iod/blob/main/Projects/Mini%20Project%203/tabl.jpg?raw=true)
